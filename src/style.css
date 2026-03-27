@@ -1,0 +1,429 @@
+/* ---------------------------------------------------------------------------------------------------- */
+/* Fonts */
+
+@font-face {
+  font-family: "IranYekan";
+
+  src: url("./assets/fonts/iran-yekan/eot/IRANYekanWebThin.eot");
+  src:
+    url("./assets/fonts/iran-yekan/eot/IRANYekanWebThin.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/fonts/iran-yekan/woff/IRANYekanWebThin.woff") format("woff"),
+    url("./assets/fonts/iran-yekan/woff2/IRANYekanWebThin.woff2")
+      format("woff2"),
+    url("./assets/fonts/iran-yekan/ttf/IRANYekanWebThin.ttf") format("truetype");
+
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "IranYekan";
+
+  src: url("./assets/fonts/iran-yekan/eot/IRANYekanWebLight.eot");
+  src:
+    url("./assets/fonts/iran-yekan/eot/IRANYekanWebLight.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/fonts/iran-yekan/woff/IRANYekanWebLight.woff") format("woff"),
+    url("./assets/fonts/iran-yekan/woff2/IRANYekanWebLight.woff2")
+      format("woff2"),
+    url("./assets/fonts/iran-yekan/ttf/IRANYekanWebLight.ttf")
+      format("truetype");
+
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "IranYekan";
+
+  src: url("./assets/fonts/iran-yekan/eot/IRANYekanWebRegular.eot");
+  src:
+    url("./assets/fonts/iran-yekan/eot/IRANYekanWebRegular.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/fonts/iran-yekan/woff/IRANYekanWebRegular.woff")
+      format("woff"),
+    url("./assets/fonts/iran-yekan/woff2/IRANYekanWebRegular.woff2")
+      format("woff2"),
+    url("./assets/fonts/iran-yekan/ttf/IRANYekanWebRegular.ttf")
+      format("truetype");
+
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "IranYekan";
+
+  src: url("./assets/fonts/iran-yekan/eot/IRANYekanWebMedium.eot");
+  src:
+    url("./assets/fonts/iran-yekan/eot/IRANYekanWebMedium.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/fonts/iran-yekan/woff/IRANYekanWebMedium.woff") format("woff"),
+    url("./assets/fonts/iran-yekan/woff2/IRANYekanWebMedium.woff2")
+      format("woff2"),
+    url("./assets/fonts/iran-yekan/ttf/IRANYekanWebMedium.ttf")
+      format("truetype");
+
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "IranYekan";
+
+  src: url("./assets/fonts/iran-yekan/eot/IRANYekanWebBold.eot");
+  src:
+    url("./assets/fonts/iran-yekan/eot/IRANYekanWebBold.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/fonts/iran-yekan/woff/IRANYekanWebBold.woff") format("woff"),
+    url("./assets/fonts/iran-yekan/woff2/IRANYekanWebBold.woff2")
+      format("woff2"),
+    url("./assets/fonts/iran-yekan/ttf/IRANYekanWebBold.ttf") format("truetype");
+
+  font-weight: Bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "IranYekan";
+
+  src: url("./assets/fonts/iran-yekan/eot/IRANYekanWebExtraBold.eot");
+  src:
+    url("./assets/fonts/iran-yekan/eot/IRANYekanWebExtraBold.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/fonts/iran-yekan/woff/IRANYekanWebExtraBold.woff")
+      format("woff"),
+    url("./assets/fonts/iran-yekan/woff2/IRANYekanWebExtraBold.woff2")
+      format("woff2"),
+    url("./assets/fonts/iran-yekan/ttf/IRANYekanWebExtraBold.ttf")
+      format("truetype");
+
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "IranYekan";
+
+  src: url("./assets/fonts/iran-yekan/eot/IRANYekanWebBlack.eot");
+  src:
+    url("./assets/fonts/iran-yekan/eot/IRANYekanWebBlack.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/fonts/iran-yekan/woff/IRANYekanWebBlack.woff") format("woff"),
+    url("./assets/fonts/iran-yekan/woff2/IRANYekanWebBlack.woff2")
+      format("woff2"),
+    url("./assets/fonts/iran-yekan/ttf/IRANYekanWebBlack.ttf")
+      format("truetype");
+
+  font-weight: 850;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "IranYekan";
+
+  src: url("./assets/fonts/iran-yekan/eot/IRANYekanWebExtraBlack.eot");
+  src:
+    url("./assets/fonts/iran-yekan/eot/IRANYekanWebExtraBlack.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/fonts/iran-yekan/woff/IRANYekanWebExtraBlack.woff")
+      format("woff"),
+    url("./assets/fonts/iran-yekan/woff2/IRANYekanWebExtraBlack.woff2")
+      format("woff2"),
+    url("./assets/fonts/iran-yekan/ttf/IRANYekanWebExtraBlack.ttf")
+      format("truetype");
+
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Minecraft";
+  src: url("./assets/fonts/mc/MinecraftDefault-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Minecraft";
+  src: url("./assets/fonts/mc/MinecraftDefault-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* ---------------------------------------------------------------------------------------------------- */
+/* Variables */
+
+:root {
+  --clr-brand: #1de9b6;
+  --clr-primary: #4db6ac;
+  --clr-secondary: #9fa8da;
+
+  --clr-text-primary: #cccccc;
+  --clr-text-secondary: #999999;
+  --clr-text-tertiary: #666666;
+
+  --clr-elv-minus-2-primary: #0b0c0e;
+  --clr-elv-minus-1-primary: #101113;
+  --clr-elv-0-primary: #151618;
+  --clr-elv-1-primary: #1a1b1d;
+  --clr-elv-2-primary: #1e1f21;
+  --clr-elv-3-primary: #222325;
+
+  --clr-on-brand: #ffffff;
+
+  --clr-brand-03: rgba(63, 81, 181, 0.03);
+  --clr-brand-05: rgba(63, 81, 181, 0.05);
+  --clr-brand-10: rgba(63, 81, 181, 0.1);
+  --clr-brand-20: rgba(63, 81, 181, 0.2);
+  --clr-brand-30: rgba(63, 81, 181, 0.3);
+  --clr-brand-40: rgba(63, 81, 181, 0.4);
+  --clr-brand-50: rgba(63, 81, 181, 0.5);
+
+  --clr-primary-03: rgba(92, 107, 192, 0.03);
+  --clr-primary-05: rgba(92, 107, 192, 0.05);
+  --clr-primary-10: rgba(92, 107, 192, 0.1);
+  --clr-primary-20: rgba(92, 107, 192, 0.2);
+  --clr-primary-30: rgba(92, 107, 192, 0.3);
+  --clr-primary-40: rgba(92, 107, 192, 0.4);
+  --clr-primary-50: rgba(92, 107, 192, 0.5);
+
+  --clr-secondary-03: rgba(159, 168, 218, 0.03);
+  --clr-secondary-05: rgba(159, 168, 218, 0.05);
+  --clr-secondary-10: rgba(159, 168, 218, 0.1);
+  --clr-secondary-20: rgba(159, 168, 218, 0.2);
+  --clr-secondary-30: rgba(159, 168, 218, 0.3);
+  --clr-secondary-40: rgba(159, 168, 218, 0.4);
+  --clr-secondary-50: rgba(159, 168, 218, 0.5);
+
+  --clr-disable-container-01: rgba(255, 255, 255, 0.01);
+  --clr-disable-container-03: rgba(255, 255, 255, 0.03);
+  --clr-disable-container-05: rgba(255, 255, 255, 0.05);
+
+  --clr-disable-content-10: rgba(255, 255, 255, 0.1);
+  --clr-disable-content-15: rgba(255, 255, 255, 0.15);
+  --clr-disable-content-20: rgba(255, 255, 255, 0.2);
+
+  --clr-info: #64b5f6;
+  --clr-info-03: rgba(100, 180, 246, 0.03);
+  --clr-info-05: rgba(100, 180, 246, 0.05);
+  --clr-info-10: rgba(100, 180, 246, 0.1);
+  --clr-info-20: rgba(100, 180, 246, 0.2);
+  --clr-info-30: rgba(100, 180, 246, 0.3);
+  --clr-info-40: rgba(100, 180, 246, 0.4);
+  --clr-info-50: rgba(100, 180, 246, 0.5);
+
+  --clr-danger: #e57373;
+  --clr-success: #0e9070;
+
+  --clr-overlay: rgba(9, 12, 27, 0.8);
+
+  --k-clr-neutral-50: #fafafa;
+  --k-clr-neutral-100: #f5f5f5;
+  --k-clr-neutral-200: #e5e5e5;
+  --k-clr-neutral-300: #d4d4d4;
+  --k-clr-neutral-400: #a3a3a3;
+  --k-clr-neutral-500: #737373;
+  --k-clr-neutral-600: #525252;
+  --k-clr-neutral-700: #404040;
+  --k-clr-neutral-800: #262626;
+  --k-clr-neutral-900: #171717;
+  --k-clr-neutral-950: #0a0a0a;
+
+  --k-clr-on-neutral: #000000;
+}
+
+/* ---------------------------------------------------------------------------------------------------- */
+/* CSS Reset */
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  user-select: none;
+}
+
+/* Remove default margin and padding. */
+/* Take away the default behaviour of elements like h elements which have default font-size and font-weight. */
+* {
+  margin: 0;
+  padding: 0;
+
+  font: inherit;
+}
+
+/* Set 1rem to 10px. */
+html {
+  font-size: 62.5%;
+}
+
+/* Set core root defaults. */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults. */
+body {
+  direction: rtl;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed. */
+ul[role="list"],
+ol[role="list"] {
+  list-style: none;
+}
+
+/* Improve media defaults. */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* Remove built-in form typography styles. */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Avoid text overflows. */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+/* Create a root stacking context. */
+#root,
+#__next {
+  isolation: isolate;
+}
+
+/* App globals */
+body {
+  font-family: "IranYekan";
+  font-size: 1.4rem;
+  background-color: var(--clr-elv-0-primary);
+  color: var(--clr-text-primary);
+}
+
+#app {
+  width: 100vw;
+  height: 100vh;
+}
+
+/* ---------------------------------------------------------------------------------------------------- */
+
+.main-c {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* gap: 4.8rem; */
+
+  padding: 4.8rem;
+
+  background-image:
+    linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.95) 0%,
+      rgba(0, 0, 0, 0.85) 60%,
+      rgba(0, 0, 0, 0)
+    ),
+    url("./assets/images/mc/bg.png");
+
+  background-size: cover;
+  background-position: center;
+}
+
+.title-c {
+  font-size: 4.8rem;
+
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+.title-fa {
+  color: var(--clr-text-tertiary);
+}
+
+.title-en-c {
+  direction: ltr;
+  font-family: "Minecraft";
+  font-size: 6rem;
+  display: flex;
+  align-items: center;
+}
+
+.title-en-m {
+  color: var(--clr-primary);
+}
+
+.dl-guide-txt {
+  font-size: 1.6rem;
+
+  padding: 1.2rem;
+  background-color: var(--clr-info-10);
+  color: var(--clr-info);
+  border-radius: 0.8rem;
+  border: 0.1rem solid var(--clr-info-10);
+  backdrop-filter: Blur(0.5rem);
+  margin-top: 4.8rem;
+}
+
+.dl-btns-c {
+  display: flex;
+  align-items: center;
+  gap: 4.8rem;
+  justify-content: space-between;
+
+  margin-top: 14.4rem;
+}
+
+.btn {
+  min-width: 8.8rem;
+  height: 4.4rem;
+  font-size: 1.6rem;
+  font-weight: bold;
+
+  padding: 0 1.4rem;
+  background-color: transparent;
+  cursor: pointer;
+  border: 0;
+  border-radius: 0.2rem;
+}
+
+.btn-windows {
+  background-color: var(--clr-primary);
+}
+
+.btn-mac,
+.btn-linux {
+  color: var(--clr-primary);
+  border: 0.1rem solid var(--clr-primary);
+}
