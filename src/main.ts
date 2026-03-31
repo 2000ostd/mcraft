@@ -3,9 +3,10 @@ import "./style.css";
 // --- Download URLs ---
 // Replace these placeholder URLs with your actual direct download links.
 const DOWNLOAD_LINKS = {
-  windows: "YOUR_WINDOWS_DOWNLOAD_URL_HERE",
-  mac: "YOUR_MAC_DOWNLOAD_URL_HERE",
-  linux: "YOUR_LINUX_DOWNLOAD_URL_HERE",
+  windows:
+    "https://dl.mcraft.ir/launcher/updates/MLauncher%20Setup%201.0.0.exe",
+  mac: "https://dl.mcraft.ir/launcher/updates/MLauncher-1.0.0-arm64.dmg",
+  linux: "https://dl.mcraft.ir/launcher/updates/MLauncher-1.0.0.AppImage",
 };
 
 /**
