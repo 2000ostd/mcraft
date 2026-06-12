@@ -6,9 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>mcraft</title>
   </head>
-  <body>
+  <body style="overflow: hidden;">
     <div id="app">
       <div class="main-c">
+        <div class="top-nav">
+          <a href="/store.html" class="btn btn-store">🛒 خرید سرور ماینکرفت</a>
+        </div>
+        
         <div class="hero-section">
           <div class="title-c">
             <div class="title-fa">به دنیای</div>
@@ -33,108 +37,7 @@
             <button class="btn btn-linux">دانلود نسخه لینوکس</button>
           </div>
         </div>
-
-        <div class="store-section" id="store">
-          <h2 class="section-title">خرید سرور ماینکرفت</h2>
-          <div class="products-container">
-            <!-- Product 1 -->
-            <div class="product-card">
-              <div class="product-icon">🌱</div>
-              <h3 class="product-title">سرور مینی</h3>
-              <ul class="product-features">
-                <li><span class="feature-icon">✔️</span> رم: ۲ گیگابایت</li>
-                <li><span class="feature-icon">✔️</span> پردازنده: ۱ هسته</li>
-                <li><span class="feature-icon">✔️</span> هارد: ۳۰ گیگابایت NVMe</li>
-                <li class="disabled-feature"><span class="feature-icon">❌</span> پشتیبانی ۲۴ ساعته</li>
-                <li class="disabled-feature"><span class="feature-icon">❌</span> آی‌پی اختصاصی ایران</li>
-                <li class="disabled-feature"><span class="feature-icon">❌</span> پورت شبکه ۱۰ گیگابیت</li>
-              </ul>
-              <div class="product-price">
-                <span class="price-amount">۳۰۰,۰۰۰</span>
-                <span class="price-currency">تومان / ماهانه</span>
-              </div>
-              <button class="btn btn-out-of-stock" disabled>ناموجود</button>
-            </div>
-
-            <!-- Product 2 -->
-            <div class="product-card">
-              <div class="product-icon">⚔️</div>
-              <h3 class="product-title">سرور استاندارد</h3>
-              <ul class="product-features">
-                <li><span class="feature-icon">✔️</span> رم: ۴ گیگابایت</li>
-                <li><span class="feature-icon">✔️</span> پردازنده: ۲ هسته</li>
-                <li><span class="feature-icon">✔️</span> هارد: ۵۰ گیگابایت NVMe</li>
-                <li><span class="feature-icon">✔️</span> پشتیبانی ۲۴ ساعته</li>
-                <li class="disabled-feature"><span class="feature-icon">❌</span> آی‌پی اختصاصی ایران</li>
-                <li class="disabled-feature"><span class="feature-icon">❌</span> پورت شبکه ۱۰ گیگابیت</li>
-              </ul>
-              <div class="product-price">
-                <span class="price-amount">۵۶۰,۰۰۰</span>
-                <span class="price-currency">تومان / ماهانه</span>
-              </div>
-              <button class="btn btn-out-of-stock" disabled>ناموجود</button>
-            </div>
-
-            <!-- Product 3 -->
-            <div class="product-card premium">
-              <div class="premium-badge">پیشنهاد ویژه</div>
-              <div class="product-icon">🚀</div>
-              <h3 class="product-title">سرور حرفه‌ای</h3>
-              <ul class="product-features">
-                <li><span class="feature-icon">✔️</span> رم: ۸ گیگابایت</li>
-                <li><span class="feature-icon">✔️</span> پردازنده: ۴ هسته</li>
-                <li><span class="feature-icon">✔️</span> هارد: ۱۰۰ گیگابایت NVMe</li>
-                <li><span class="feature-icon">✔️</span> پشتیبانی ۲۴ ساعته</li>
-                <li><span class="feature-icon">✔️</span> آی‌پی اختصاصی ایران</li>
-                <li class="disabled-feature"><span class="feature-icon">❌</span> پورت شبکه ۱۰ گیگابیت</li>
-              </ul>
-              <div class="product-price">
-                <span class="price-amount">۹۸۰,۰۰۰</span>
-                <span class="price-currency">تومان / ماهانه</span>
-              </div>
-              <button class="btn btn-out-of-stock" disabled>ناموجود</button>
-            </div>
-
-            <!-- Product 4 -->
-            <div class="product-card">
-              <div class="product-icon">💎</div>
-              <h3 class="product-title">سرور اولترا</h3>
-              <ul class="product-features">
-                <li><span class="feature-icon">✔️</span> رم: ۱۶ گیگابایت</li>
-                <li><span class="feature-icon">✔️</span> پردازنده: ۸ هسته</li>
-                <li><span class="feature-icon">✔️</span> هارد: ۲۰۰ گیگابایت NVMe</li>
-                <li><span class="feature-icon">✔️</span> پشتیبانی ۲۴ ساعته</li>
-                <li><span class="feature-icon">✔️</span> آی‌پی اختصاصی ایران</li>
-                <li><span class="feature-icon">✔️</span> پورت شبکه ۱۰ گیگابیت</li>
-              </ul>
-              <div class="product-price">
-                <span class="price-amount">۱,۷۰۰,۰۰۰</span>
-                <span class="price-currency">تومان / ماهانه</span>
-              </div>
-              <button class="btn btn-out-of-stock" disabled>ناموجود</button>
-            </div>
-          </div>
-        </div>
       </div>
-
-      <!-- Footer -->
-      <footer class="site-footer">
-        <div class="footer-content">
-          <div class="footer-logo">
-            <span>M</span>Craft
-          </div>
-          <div class="footer-desc">
-            بهترین تجربه سرور و لانچر ماینکرفت در ایران
-          </div>
-          <div class="footer-contact">
-            <span>ارتباط با ما:</span>
-            <a href="mailto:contact@mcraft.ir" class="footer-email">contact@mcraft.ir</a>
-          </div>
-        </div>
-        <div class="footer-copy">
-          تمامی حقوق برای ام‌کرفت محفوظ است. &copy; ۲۰۲۶
-        </div>
-      </footer>
     </div>
     <script type="module" src="/src/main.ts"></script>
   </body>
